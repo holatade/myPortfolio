@@ -7,9 +7,12 @@ import { Fade } from "react-reveal";
 
 const Projects = () => {
   return (
-    <section className="section section-lg">
+    <section
+      className="section section-lg"
+      style={{ marginTop: "0", paddingTop: "0" }}
+    >
       <Container>
-        <Fade bottom duration={1000} distance="40px">
+        <Fade bottom duration={500} distance="40px">
           <div className="d-flex p-4">
             <div>
               <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
@@ -22,7 +25,7 @@ const Projects = () => {
           </div>
           <Row className="row-grid align-items-center">
             {projects.map((data) => {
-              return <ProjectsCard data={data} />;
+              return <ProjectsCard key={data.id} data={data} />;
             })}
           </Row>
         </Fade>

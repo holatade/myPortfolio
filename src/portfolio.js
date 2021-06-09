@@ -184,6 +184,7 @@ export const educationInfo = [
 
 export const experience = [
   {
+    id: 1,
     role: "Fullstack Developer",
     company: "Sterling Bank",
     companylogo: sterlinglogo,
@@ -197,6 +198,7 @@ export const experience = [
     ],
   },
   {
+    id: 2,
     role: "Software Developer",
     company: "Forah Technology",
     companylogo: github,
@@ -209,6 +211,7 @@ export const experience = [
     ],
   },
   {
+    id: 3,
     role: "Junior Software Developer",
     company: "Complustech",
     companylogo: complustech,
@@ -221,6 +224,7 @@ export const experience = [
     ],
   },
   {
+    id: 4,
     role: "Software Developer Intern",
     company: "Code 360",
     companylogo: code360logo,
@@ -235,6 +239,7 @@ export const experience = [
 
 export const projects = [
   {
+    id: 1,
     name: "HealthBanc",
     desc: "Healthbanc is an online platform that host several services. It uses technology, advocacy, and finance to solve the problem of inefficient service delivery within the health sector.",
     link: {
@@ -243,6 +248,7 @@ export const projects = [
     },
   },
   {
+    id: 2,
     name: "EduBanc",
     desc: "Edubanc was created to support the education system and make it thrive. It is on mission to holistically address the challenges of the Nigerian Education System by solving real problems impeding learning, teaching and innovation",
     link: {

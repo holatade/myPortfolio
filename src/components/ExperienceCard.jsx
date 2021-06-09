@@ -30,8 +30,8 @@ const ExperienceCard = ({ data }) => {
   }
 
   return (
-    <Col md="4" lg="6">
-      <Fade left duration={1000} distance="40px">
+    <Col md="6" lg="6">
+      <Fade left duration={500} distance="40px">
         <Card
           style={{ flex: 1 }}
           className="shadow-lg--hover shadow border-0 mb-2 text-center rounded"
@@ -43,7 +43,7 @@ const ExperienceCard = ({ data }) => {
             <img
               ref={imgRef}
               className=" bg-white rounded-circle mb-3 img-center img-fluid shadow-lg "
-              top
+              // top
               src={data.companylogo}
               style={{ width: "100px" }}
               onLoad={() => getColorArrays()}
@@ -53,14 +53,14 @@ const ExperienceCard = ({ data }) => {
             <CardSubtitle>{data.date}</CardSubtitle>
             <CardText className="description my-3 text-left">
               {data.desc}
-              <ul>
-                {data.descBullets
-                  ? data.descBullets.map((desc) => {
-                      return <li key={desc}>{desc}</li>;
-                    })
-                  : null}
-              </ul>
             </CardText>
+            <ul className="description my-3 text-left">
+              {data.descBullets
+                ? data.descBullets.map((desc) => {
+                    return <li key={desc}>{desc}</li>;
+                  })
+                : null}
+            </ul>
             <div></div>
           </CardBody>
         </Card>
