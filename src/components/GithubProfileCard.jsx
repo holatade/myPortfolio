@@ -26,7 +26,7 @@ const GithubProfileCard = () => {
                 ALL
               </p>
               <p className="text-white mt-3">
-                I am a Full Stack Web Developer | MERN | .NET | Python/Django
+                I am a Full Stack Web Developer | React | .NET 
               </p>
               <p className="text-white mt-3">
                 CONTACT : +2347016720240 | hassan.olatade.hh@gmail.com

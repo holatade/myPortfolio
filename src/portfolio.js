@@ -4,12 +4,13 @@ import github from "./assets/img/icons/common/github.svg";
 import sterlinglogo from "./assets/img/icons/common/sterling.svg";
 import code360logo from "./assets/img/icons/common/code360.svg";
 import complustech from "./assets/img/icons/common/complustech.svg";
+import parkway from "./assets/img/icons/common/parkway.svg";
 
 export const greetings = {
   name: "Hassan Hassan",
   title: "Hi all, I'm Hassan",
   description:
-    "A passionate Full Stack Web Developer with experience building Web applications with JavaScript / C# / Reactjs / Nodejs / .NET / Python / Django and some other cool libraries and frameworks.",
+    "A passionate Full Stack Web Developer with experience building Web applications with JavaScript / C# / Reactjs / .NET / Python  and some other cool libraries and frameworks.",
   resumeLink:
     "https://drive.google.com/file/d/1FkMBbtGgIuUM_Ye6SNgwkbdM5vZAOXj6/view?usp=sharing",
 };
@@ -37,9 +38,7 @@ export const skillsSection = {
       "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ Azure / Digital Ocean"
-    ),
+    emoji("⚡ Integration of third party services such as Firebase/ Azure"),
   ],
 
   softwareSkills: [
@@ -80,20 +79,12 @@ export const skillsSection = {
       fontAwesomeClassname: "vscode-icons:file-type-reactjs",
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "logos:nodejs-icon",
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "vscode-icons:file-type-npm",
     },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "vscode-icons:file-type-sql",
-    },
-    {
-      skillName: "mongoDB",
-      fontAwesomeClassname: "vscode-icons:file-type-mongo",
     },
     {
       skillName: "firebase",
@@ -140,11 +131,7 @@ export const SkillBars = [
     progressPercentage: "80",
   },
   {
-    Stack: "Node, Express",
-    progressPercentage: "80",
-  },
-  {
-    Stack: "Database Technology (MSSQL, SQLite,MongoDB) ",
+    Stack: "Database Technology (MSSQL, SQLite) ",
     progressPercentage: "80",
   },
   {
@@ -185,10 +172,23 @@ export const educationInfo = [
 export const experience = [
   {
     id: 1,
-    role: "Fullstack Developer",
+    role: "Software Developer Specialist",
+    company: "Parkway Projects",
+    companylogo: parkway,
+    date: "June 2021 – Present",
+    desc: "Lead software developer at sterling bank responsible for maintaining and creating the bank web applications and infrastructure",
+    descBullets: [
+      "Worked on web migration project and rebuild existing .NET and Node.js products into .NET Core web applications, was responsible for core logic and functionality.",
+      "Integrated with several banks to enable USSD and Virtual accounts payment systems.",
+      "Created new features on the Bank3D global payment solution platform such as KYC functionlity on bank3D retail",
+    ],
+  },
+  {
+    id: 2,
+    role: "Lead Fullstack Developer",
     company: "Sterling Bank",
     companylogo: sterlinglogo,
-    date: "December 2019 – Present",
+    date: "December 2019 – June 2021",
     desc: "Lead software developer at sterling bank responsible for maintaining and creating the bank web applications and infrastructure",
     descBullets: [
       "Worked on web migration project and rebuild existing .NET products into .NET Core web applications.",
@@ -198,7 +198,7 @@ export const experience = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     role: "Software Developer",
     company: "Forah Technology",
     companylogo: github,
@@ -211,7 +211,7 @@ export const experience = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     role: "Junior Software Developer",
     company: "Complustech",
     companylogo: complustech,
@@ -224,7 +224,7 @@ export const experience = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     role: "Software Developer Intern",
     company: "Code 360",
     companylogo: code360logo,
@@ -249,11 +249,29 @@ export const projects = [
   },
   {
     id: 2,
+    name: "Bank3D",
+    desc: "Bank3D is a simplified platform enabling Nigerian businesses to make and receive payments.It brings in retail payments, business banking and a robust payment gateway into one platform.",
+    link: {
+      name: "Bank3D",
+      url: "https://www.bank3d.ng/",
+    },
+  },
+  {
+    id: 3,
     name: "EduBanc",
     desc: "Edubanc was created to support the education system and make it thrive. It is on mission to holistically address the challenges of the Nigerian Education System by solving real problems impeding learning, teaching and innovation",
     link: {
       name: "EduBanc",
       url: "https://edubanc.ng",
+    },
+  },
+  {
+    id: 4,
+    name: "ChurchPlus",
+    desc: "One software to automate your entire church management from increasing church attendance, first time guest retention, church remittance to overall church administration.",
+    link: {
+      name: "ChurchPlus",
+      url: "https://churchplus.co/",
     },
   },
 ];
