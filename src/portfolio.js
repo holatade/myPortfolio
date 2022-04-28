@@ -16,7 +16,7 @@ export const greetings = {
 };
 
 export const openSource = {
-  githubUserName: "1hanzla100",
+  githubUserName: "holatade",
 };
 
 export const contact = {};
@@ -148,7 +148,7 @@ export const educationInfo = [
   {
     schoolName: "Code 360",
     subHeader: "Diploma in C# and .NET",
-    duration: "May 2019 - August 2019",
+    duration: "August 2018 - December 2018",
     desc: "Studied C# and .NET Technologies",
   },
   {
@@ -160,7 +160,7 @@ export const educationInfo = [
   {
     schoolName: "University of Ibadan",
     subHeader: "Masters in Petroleum Geology/Sedimentolgy",
-    duration: "May 2017 - June 2019",
+    duration: "May 2017 - January 2019",
   },
   {
     schoolName: "Kwara State University",
@@ -175,7 +175,7 @@ export const experience = [
     role: "Software Developer Specialist",
     company: "Parkway Projects",
     companylogo: parkway,
-    date: "June 2021 – Present",
+    date: "May 2021 – Present",
     desc: "Lead software developer at sterling bank responsible for maintaining and creating the bank web applications and infrastructure",
     descBullets: [
       "Worked on web migration project and rebuild existing .NET and Node.js products into .NET Core web applications, was responsible for core logic and functionality.",
@@ -188,7 +188,7 @@ export const experience = [
     role: "Lead Fullstack Developer",
     company: "Sterling Bank",
     companylogo: sterlinglogo,
-    date: "December 2019 – June 2021",
+    date: "December 2019 – May 2021",
     desc: "Lead software developer at sterling bank responsible for maintaining and creating the bank web applications and infrastructure",
     descBullets: [
       "Worked on web migration project and rebuild existing .NET products into .NET Core web applications.",
@@ -215,7 +215,7 @@ export const experience = [
     role: "Junior Software Developer",
     company: "Complustech",
     companylogo: complustech,
-    date: "August 2019 – December 2019",
+    date: "May 2019 – December 2019",
     desc: "Developed vendor management project with .NET MVC where delta state government can manage their debt, credit and performance.",
     descBullets: [
       "Worked extensively with financial data sets to generate summary reports and different analytical graphical presentations.",
@@ -228,7 +228,7 @@ export const experience = [
     role: "Software Developer Intern",
     company: "Code 360",
     companylogo: code360logo,
-    date: "April 2019 – August 2015",
+    date: "January 2019 – May 2019",
     desc: "Worked with a team of 5 developers to create the code 360 education portal web API",
     descBullets: [
       "Developed a system to manage current and enroll prospective students for software training, determine their status, pay, performance, assigned tasks, performed tests and manage tutors grading among others.",
